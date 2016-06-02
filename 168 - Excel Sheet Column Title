@@ -2,7 +2,7 @@
 168 - Excel Sheet Column Title
 Given a positive integer, return its corresponding column title as appear in an Excel sheet. For example: 1 -> A , 2 -> B , 26 -> Z, 27 -> AA
 
-C++ Solution:
+- C++ Solution - 1:
 
 class Solution {
 public:
@@ -20,5 +20,20 @@ public:
         return res;
     }
 }; 
-```
+
+
+- C++ Solution - 2:
+
+class Solution {
+public:
+    string convertToTitle(int n) {
+        string res = "";
+        while (n > 0) {
+                res = char((n-1)%26 + 'A') + res;
+                n = n/26;
+        }
+        return res;
+    }
+};
+
 
