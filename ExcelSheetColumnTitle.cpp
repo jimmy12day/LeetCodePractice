@@ -1,8 +1,7 @@
 
-168 - Excel Sheet Column Title
-Given a positive integer, return its corresponding column title as appear in an Excel sheet. For example: 1 -> A , 2 -> B , 26 -> Z, 27 -> AA
-
-- C++ Solution :
+//168 - Excel Sheet Column Title
+//Given a positive integer, return its corresponding column title as appear in an Excel sheet. For example: 1 -> A , 2 -> B , 26 -> Z, 27 -> AA
+//- C++ Solution :
 
 class Solution {
 public:
